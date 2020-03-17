@@ -6,6 +6,5 @@ import AfterEffects from './AfterEffects';
 import AEDataLoader from './loader';
 import AEDataInterceptor from './interceptor';
 
-window.PIXI.AfterEffects = AfterEffects;
-window.PIXI.AEDataLoader = AEDataLoader;
-window.PIXI.AEDataInterceptor = AEDataInterceptor;
+export * from 'pixi.js';
+export { AfterEffects, AEDataLoader, AEDataInterceptor };
